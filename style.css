@@ -1,0 +1,394 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* For all images */
+img {
+  object-fit: cover;
+}
+
+/* For all paragraphs */
+p {
+  font-weight: 600;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Apply a background image to the hero section */
+.hero {
+  position: relative;
+  height: 100vh;
+  background: url(Images/bc.jpg) center/cover no-repeat;
+}
+
+.about-content{
+  position: relative;
+  height: auto;
+  background: url(Images/back.jpg) center/cover no-repeat;
+}
+/* The navigation bar will be placed in the header, at the top of the page */
+.navbar {
+  font-weight: 200;
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: 400;
+}
+.Logo{
+  height: 100px;
+  width: 100px;
+}
+
+.nav-item {
+  margin-right: 1.5rem;
+  
+}
+h1 {
+  font-size: 80px;
+  font-family: "Roboto Flex", sans-serif;
+  color: white;
+  margin-top: 0;
+}
+
+.chapter-btn {
+  background-color: #fcc419;
+  outline: none;
+  border: none;
+  color: #000;
+  padding: 15px 25px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-radius: 5px;
+  transition: 0.4s ease-out;
+  width: 100%;
+  max-width: 200px;
+  margin-left: 0;
+}
+
+.chapter-btn a {
+  text-decoration: none;
+  color: #000;
+}
+
+.chapter-btn:hover {
+  transform: translateY(2px);
+}
+
+.about-content {
+  background-color: #000;
+  height: 400px;
+  padding-left: 2.5rem;
+}
+
+.about-content h3 {
+  font-size: 40px;
+}
+
+.about-content > div > p {
+  margin-top: 2rem;
+}
+
+.quest-title {
+  font-family: "Seaweed Script", cursive;
+  font-size: 25px;
+}
+
+.quest-wrapper {
+  background-color: #131313;
+  width: 100%;
+  padding: 80px;
+}
+
+.quest-wrapper h1 {
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Icon color */
+.bi {
+  color: #fcc419;
+}
+
+.quest-wrapper h1 {
+  text-align: center;
+  padding: 30px;
+}
+
+.chapter-1-wrapper {
+  background-color: #000;
+  color: #fff;
+}
+
+.chapter-1-wrapper img {
+  width: 100%;
+  height: 481px;
+  max-width: 488px;
+  border-radius: 3px;
+}
+
+.chapter-1-wrapper .yellow {
+  color: #fcc419;
+}
+
+.chapter-1-wrapper p {
+  line-height: 3;
+  font-size: small;
+}
+
+.chapter-1-paragraph-image {
+  width: 100%;
+  max-width: 419px;
+  height: 619px;
+}
+
+/* Chapter 2 and 3 section */
+.chapter-2-wrapper img,
+.chapter-3-wrapper img,
+.kai-dense-forest-image,
+.kai-and-friends {
+  width: 100%;
+  max-width: 474.9px;
+  height: auto;
+}
+
+/* The End section */
+.end-section {
+  height: 500px;
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+  line-height: 3;
+}
+
+.end-section .yellow {
+  color: #fcc419;
+}
+
+/* Account */
+.account {
+  width: 100%;
+  max-width: 1440px;
+  height: auto;
+  background-color: #131313;
+  color: #fff;
+}
+
+.account h1 {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.account-input label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input {
+  width: 100%;
+  max-width: 400px;
+  padding: 15px;
+  margin-bottom: 50px;
+  box-sizing: border-box;
+  outline: transparent;
+  border: 1px solid #eee;
+  background-color: #131313;
+  color: #ced4da;
+  transition: 0.3s all ease-in;
+}
+
+input:hover {
+  border-color: #fcc107;
+  cursor: context-menu;
+}
+
+input:focus {
+  border-color: #4caf50;
+  cursor: context-menu;
+}
+
+/* Styling for the submit button */
+.btn-light {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+  border-radius: 20px;
+  padding: 12px 60px;
+}
+
+footer {
+  height: 200px;
+}
+
+/* Media Query for responsive layouts */
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 40px;
+    font-family: "Roboto Flex", sans-serif;
+    color: white;
+    margin-top: 0;
+    text-align: center;
+  }
+
+  .chapter-btn {
+    margin-left: 0;
+    font-size: 16px;
+    padding: 12px 20px;
+  }
+
+  .navbar-brand {
+    font-size: 24px;
+    font-weight: 400;
+  }
+
+  .about-content {
+    flex-direction: column;
+    font-size: 14px;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .about-content > div {
+    font-size: 13px;
+  }
+
+  .about-content h3 {
+    font-size: 30px;
+  }
+
+  .card-img-top {
+    height: 150px;
+  }
+
+  .grid-container {
+    grid-template-columns: repeat(1, 1fr);
+    place-items: center;
+    text-align: center;
+  }
+
+  .chapter-1-wrapper {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .chapter-1-wrapper img {
+    border-radius: 0;
+  }
+
+  .chapter-2-wrapper img {
+    width: 100%;
+  }
+
+  .chapter-1-wrapper p {
+    padding: 0 14px;
+  }
+
+  .chapter-1-continuation {
+    margin-top: 30px;
+  }
+
+  .end-section {
+    font-size: 13px;
+    padding: 14px;
+    height: auto;
+  }
+}
+
+/* Media query for iPads (width between 800px and 900px) */
+@media screen and (min-width: 800px) and (max-width: 900px) {
+  h1 {
+    font-size: 30px;
+    padding: 15px;
+  }
+
+  .chapter-btn {
+    font-size: 14px;
+    padding: 10px 15px;
+  }
+
+  .navbar-brand {
+    font-size: 20px;
+    margin-top: 1rem;
+    padding: 8px;
+  }
+
+  .about-content {
+    padding: 15px;
+    margin-bottom: 15px;
+  }
+
+  .about-content h3 {
+    font-size: 26px;
+    margin-bottom: 8px;
+  }
+
+  .card-img-top {
+    height: 120px;
+  }
+
+  .grid-container {
+    padding: 15px;
+  }
+
+  .card {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .chapter-1-wrapper {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .chapter-1-wrapper img {
+    border-radius: 0;
+    width: 100%;
+  }
+
+  .chapter-1-wrapper p {
+    padding: 0 15px;
+    margin-bottom: 15px;
+  }
+
+  .paragraph-chp1 {
+    margin-bottom: 15px;
+  }
+
+  .chapter-1-paragraph-image {
+    width: 100%;
+  }
+
+  .chapter-1-continuation {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .end-section {
+    font-size: 13px;
+    padding: 14px;
+    height: auto;
+  }
+}

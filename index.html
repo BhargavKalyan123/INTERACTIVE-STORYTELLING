@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap CSS stylesheet from CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <!-- Bootstrap JS bundle from CDN -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Custom stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Preconnect to Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Google Fonts - Poppins, Roboto Flex, Seaweed Script -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&family=Roboto+Flex:opsz@8..144&family=Seaweed+Script&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap Icons from CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"
+    />
+
+    <title>The Quest</title>
+  </head>
+  <body>
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <!-- Navigation Bar -->
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+          <a class="navbar-brand" href="#"> <h3>Quest</h3></a>
+          <!-- Navbar Toggler -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- Navbar Items -->
+          <div class="collapse navbar-collapse my-3" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link btn btn-secondary active px-4 rounded-pill" aria-current="page" href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link btn btn-secondary active px-4 rounded-pill" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link btn btn-secondary active px-4 rounded-pill" href="#story">Stories</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link btn btn-secondary active px-4 rounded-pill" href="signin.html">sign in</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link btn btn-secondary active px-4 rounded-pill" href="account.html" >Account</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link btn btn-secondary active px-4 rounded-pill" href="feedback.html"
+                  >Feedback</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Hero Intro -->
+      <div
+        class="hero-intro p-5 m-5 d-flex flex-column align-items-start text-sm-start"
+      >
+        <h1>
+          The <br />
+          Story IsLand
+        </h1>
+        <button class="chapter-btn"><a href="#chapter">Chapters</a></button>
+      </div>
+    </section>
+    <section class="spacer"></section>
+<style>
+  .spacer {
+    background-color: #000;
+    height: 100px; /* adjust the height to your liking */
+  }
+</style>
+    <!-- Quest Section -->
+    <section class="quest-wrapper" id="chapter">
+      <h1>Quests <i class="bi bi-arrow-down"></i></h1>
+      <!-- Grid of Chapters -->
+      <div class="grid-container">
+        <!-- Chapter 1 Card -->
+        <div class="card" style="width: 18rem">
+          <img src="images/village-1.png" class="card-img-top" alt="Village" />
+          <div class="card-body">
+            <h5 class="card-title">Chapter 1: Beginnings</h5>
+            <p class="card-text">
+              Embark on a journey with young adventurer Kai in a quaint village.
+            </p>
+            <a href="#chapter1" class="btn btn-warning px-4">Explore</a>
+          </div>
+        </div>
+        <!-- Chapter 2 Card -->
+        <div class="card" style="width: 18rem">
+          <img
+            src="images/mysterious-creature.JPG"
+            class="card-img-top"
+            alt="Village"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Chapter 2: Trials</h5>
+            <p class="card-text">
+              Kai's journey: dense forests, puzzles, mythical encounters. New
+              friends, teamwork, determination
+            </p>
+            <a href="#chapter2" class="btn btn-warning px-4">Explore</a>
+          </div>
+        </div>
+        <!-- Chapter 3 Card -->
+        <div class="card" style="width: 18rem">
+          <img
+            src="images/cave-exploring.JPG"
+            class="card-img-top"
+            alt="Village"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Chapter 3: Discovery</h5>
+            <p class="card-text">
+              Adventurers find hidden cave, unlock secrets. Treasure brings
+              prosperity, but moral dilemma arises
+            </p>
+            <a href="#chapter3" class="btn btn-warning px-4">Explore</a>
+          </div>
+        </div>
+        <!-- Chapter 4 Card -->
+        <div class="card" style="width: 18rem">
+          <img
+            src="images/dark-figure.png"
+            class="card-img-top"
+            alt="Village"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Chapter 4: Discovery</h5>
+            <p class="card-text">
+              Figures seek treasure. Kai and friends navigate, testing
+              loyalties. Character shines.
+            </p>
+            <a href="#chapter4" class="btn btn-warning px-4">Explore</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
+      class="chapter-1-wrapper d-flex align-items-center justify-content-around py-5"
+      id="chapter1"
+    >
+      <div class="chapter-content" id="story">
+        <h1>Chapter <span class="yellow">1</span></h1>
+        <p>
+          Join Kai on a cool adventure. He finds a secret map in his small
+          village, pointing to <br />
+          an old treasure. Excitement buzzes as Kai begins his journey.
+          Following the map, he <br />
+          deals with tricky forests, puzzles, and even meets magical creatures.
+          Along the way, <br />
+          Kai makes new friends and learns the power of working together and
+          staying <br />
+          determined. The village fades away as the adventure takes off,
+          promising a fun <br />
+          exploration in this story of beginnings.
+        </p>
+      </div>
+      <img src="images/kai-exploring-the-village.png" alt="" />
+    </section>
+    <!-- Chapter 1 paragraph -->
+    <section
+      class="chapter-1-wrapper chapter-1-wrapper-text d-flex align-items-center justify-content-around py-5"
+      id="stories"
+    >
+      <div>
+        <p class="paragraph-chp1">
+          As Kai ventures deeper into the mysterious realm guided by the ancient
+          map, he encounters <br />
+          challenges that test not only his wit but also his courage. The dense
+          forests whisper with unseen <br />
+          secrets, and the puzzles reveal clues leading to the heart of the
+          treasure. Alongside Kai, his newfound <br />
+          friends prove indispensable, each contributing unique skills to
+          unravel the mysteries that guard the <br />
+          coveted prize. As the group faces magical creatures, they discover the
+          importance of unity and <br />
+          determination. The journey becomes a transformative experience, not
+          just for Kai, but for everyone <br />
+          involved, as bonds strengthen and the promise of the hidden treasure
+          draws them closer to the heart <br />
+          of the adventure.
+        </p>
+      </div>
+      <img
+        src="images/kai-forest.png"
+        alt=""
+        class="chapter-1-paragraph-image"
+      />
+    </section>
+    <!-- Chapter 1 paragraph second section -->
+    <section
+      class="chapter-1-wrapper chapter-1-wrapper-text d-flex align-items-center justify-content-around py-5"
+      id="stories"
+    >
+      <img
+        src="images/kai-conquer-challenges.png"
+        alt=""
+        class="chapter-1-paragraph-image"
+      />
+      <div>
+        <p class="chapter-1-continuation">
+          As Kai and his friends conquer the challenges, the ancient treasure
+          reveals itself in a hidden cave. The <br />
+          glow of discovery lights up their faces, marking the end of Chapter 1:
+          Beginnings. With the promise of <br />
+          more adventures ahead, the group stands united, their shared
+          excitement echoing through the cavern. <br />
+          The village may be distant, but the newfound bond and the anticipation
+          of what lies ahead linger, <br />
+          leaving readers eagerly anticipating the next chapter in Kai's
+          extraordinary journey.
+        </p>
+      </div>
+    </section>
+    <!-- Chapter 2 section -->
+    <section
+      class="chapter-1-wrapper chapter-2-wrapper d-flex align-items-center justify-content-around py-5"
+      id="chapter2"
+    >
+      <div>
+        <h1>Chapter <span class="yellow">2</span></h1>
+        <p>
+          Kai faces challenges along the way—dense forests, tricky puzzles, and
+          encounters <br />
+          with mythical creatures. With newfound friends, the group learns the
+          value of <br />
+          teamwork and determination.
+        </p>
+      </div>
+      <img src="images/kai-facing-challenges.png" alt="" />
+    </section>
+    <!-- Chapter 2 paragraph -->
+    <section
+      class="chapter-1-wrapper chapter-2-wrapper d-flex align-items-center justify-content-around py-5"
+      id="chapter2"
+    >
+      <div>
+        <p>
+          Kai and his group had to deal with a bunch of challenges on their
+          journey. They went through really <br />
+          thick forests, solved some tricky puzzles, and met magical creatures.
+          Using an old map, they learned <br />
+          how awesome it was to work together and use each person's special
+          skills. Figuring out those puzzles <br />
+          not only helped them become better friends but also made their team
+          stronger. The adventure was <br />
+          turning out to be more than just finding treasure—it was about
+          sticking together and figuring out what <br />
+          cool things they could do as a team in the magical woods.
+        </p>
+      </div>
+      <img
+        src="images/kai-dense-forest-adventure.png"
+        class="kai-dense-forest-image"
+        alt=""
+      />
+    </section>
+    <section
+      class="chapter-1-wrapper chapter-2-wrapper d-flex align-items-center justify-content-center py-5"
+      id="chapter2"
+    >
+      <p>
+        During their challenges, magical beings showed up, sharing both smart
+        advice and playful tricks. But with strong determination and growing
+        <br />
+        friendship, Kai and his pals bravely faced these magical moments. The
+        tough times weren't just problems to solve; they turned into chances to
+        <br />
+        make their bond even stronger. As they kept going, the treasure they
+        were after became even more exciting, offering not just stuff but also
+        good <br />
+        things like friendship, strength, and the power to change through their
+        journey together.
+      </p>
+    </section>
+    <!-- Chapter 3 section -->
+    <section
+      class="chapter-1-wrapper chapter-3-wrapper d-flex align-items-center justify-content-around py-5"
+      id="chapter3"
+    >
+      <div>
+        <h1>Chapter <span class="yellow">3</span></h1>
+        <p>
+          The adventurers reach the hidden cave, unlocking the secrets within.
+          The treasure <br />
+          is more than gold—it holds the power to bring prosperity to their
+          village. But a moral <br />
+          dilemma arises as they realize its impact on the world.
+        </p>
+      </div>
+      <img src="images/chapter-3.png" alt="" />
+    </section>
+    <!-- Chapter 3 paragraph -->
+    <section
+      class="chapter-1-wrapper chapter-3-wrapper d-flex align-items-center justify-content-center py-5"
+      id="chapter3"
+    >
+      <p>
+        Entering the concealed cave, Kai and his companions were greeted by an
+        otherworldly glow, its mystical aura revealing the true nature of the
+        <br />
+        treasure within. Unlike the expected gleam of gold, the cave cradled a
+        power that transcended material wealth—a force pulsating with the <br />
+        promise of prosperity for their humble village. The ancient symbols
+        etched on the cavern walls whispered tales of a magic capable of healing
+        <br />
+        and uplifting, weaving a narrative that extended far beyond their
+        immediate desires.
+      </p>
+    </section>
+    <section
+      class="chapter-1-wrapper chapter-3-wrapper d-flex align-items-center justify-content-around py-5"
+      id="chapter2"
+    >
+      <div>
+        <p>
+          As Kai and his friends went deeper into the cave, they found something
+          amazing—a special treasure <br />
+          that could make their village better and even help the whole world.
+          But their excitement turned into a <br />
+          tricky problem. They started feeling unsure about what to do because
+          having this much power meant <br />
+          they had to think about how it would affect everyone, not just their
+          village. The cave, which used to be <br />
+          full of mystery and good things, now made them face a tough choice.
+          They had to really think about <br />
+          what their journey meant and how their decisions would change not just
+          their lives but the whole wide <br />
+          world.
+        </p>
+      </div>
+      <img
+        src="images/kai-exploring-cave-chp3.png"
+        class="kai-dense-forest-image"
+        alt=""
+      />
+    </section>
+    <section
+      class="chapter-1-wrapper chapter-3-wrapper d-flex align-items-center justify-content-center py-5"
+      id="chapter3"
+    >
+      <p>
+        After thinking a lot in the glowing cave, Kai and his friends decided
+        something important. They didn't want to keep the super special power
+        just for <br />
+        themselves. Instead, they chose to share it with the world in a smart
+        way. When they came out into the daylight, carrying the magic that could
+        make things <br />
+        better, they felt a big responsibility. What started as a hunt for
+        treasure turned into a mission to make the whole world a nicer place.
+        <br />
+        News about their choice spread, and soon, people from faraway places
+        came to get the magical gift. The once-hidden village became a friendly
+        center, <br />
+        spreading good vibes way beyond its borders. Kai and his friends, not
+        getting rich with gold but feeling rich in making good choices, stood
+        together as <br />
+        protectors of the special magic. They realized that the true treasure
+        was in making a positive difference in other people's lives.
+      </p>
+    </section>
+    <!-- Chapter 4 section -->
+    <section
+      class="chapter-1-wrapper chapter-4-wrapper d-flex align-items-center justify-content-around py-5"
+      id="chapter4"
+    >
+      <div>
+        <h1>Chapter <span class="yellow">4</span></h1>
+        <p>
+          Dark figures emerge, seeking the treasure for themselves. Kai and
+          friends must <br />
+          navigate treacherous terrain, outsmarting those who would misuse the
+          ancient <br />
+          power. Loyalties are tested, and true character shines.
+        </p>
+      </div>
+      <img
+        src="images/kai-friends-creatures.png"
+        class="kai-and-friends"
+        alt=""
+      />
+    </section>
+    <!-- Chapter 4 paragraph -->
+    <section
+      class="chapter-1-wrapper chapter-4-wrapper d-flex align-items-center justify-content-center py-5"
+      id="chapter4"
+    >
+      <p>
+        While Kai and his friends were feeling really happy about what they
+        discovered, some not-so-nice people showed up. These folks were all
+        about being <br />
+        greedy and wanted the treasure for themselves. Suddenly, Kai and his
+        pals had to deal with a super tricky situation. They had to go through a
+        really tough <br />
+        and dangerous place, full of problems. The air got heavy with
+        nervousness as they faced tricky enemies who wanted to use the special
+        power hidden in the <br />
+        cave for the wrong reasons. When things got really scary, Kai and his
+        friends had to show how much they cared about each other, and that's
+        when you <br />
+        could see who they really were.
+      </p>
+    </section>
+    <section
+      class="chapter-1-wrapper chapter-1-wrapper-text chapter-4 d-flex align-items-center justify-content-around py-5"
+    >
+      <img
+        src="images/kai-and-friends.png"
+        alt=""
+        class="chapter-1-paragraph-image chapter-4"
+      />
+      <div>
+        <p class="chapter-1-continuation chapter-4">
+          In the middle of all the tricky lies and betrayals, Kai and his
+          buddies showed how tough and smart they <br />
+          were. They didn't let the sneaky people get away with trying to use
+          the cave's powerful secrets for the <br />
+          wrong reasons. Together, they were super strong and loyal, like a
+          bright light in the middle of the <br />
+          darkness. Even though the greedy shadows made things hard, Kai and his
+          friends proved they were <br />
+          even stronger. Through all the tough stuff, they figured out just how
+          tough they could be and how <br />
+          important it was to stick together against anyone trying to use the
+          special power in the wrong way.
+        </p>
+      </div>
+    </section>
+    <!-- The End Section -->
+    <div class="end-section text-center pt-5">
+      <h1>The <span class="yellow">End</span></h1>
+      <p>
+        Kai and his friends won against the sneaky people who wanted the
+        treasure. They made sure the special power in the cave stayed <br />
+        safe. Standing there, they felt really proud and close to each other.
+        <br />
+        Looking at the entrance of the cave, they knew their adventure was
+        finished. What started as looking for treasure turned into <br />
+        finding out how strong their friendship was. The village, once a secret
+        place, became known for being strong and friendly. Kai and <br />
+        his friends understood that the real treasure wasn't just the magic in
+        the cave but how much they cared about each other. As the <br />
+        sun set on their big adventure, it wasn't the end—it was the start of a
+        new time with more friendship and happy moments ahead.
+      </p>
+    </div>
+  </body>
+</html>

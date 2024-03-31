@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* For all images */
+  img {
+    object-fit: cover;
+  }
+  
+  /* For all paragraphs */
+  p {
+    font-weight: 600;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: "Poppins", sans-serif;
+    background-image: url('Images/sun-rays-falling-deep-into-600nw-1721181988.jpg');
+    height: 100vh;
+    background-size: cover;
+  }
+  .hero {
+    position: relative;
+    height: 100vh;
+  }
+  /* The navigation bar will be placed in the header, at the top of the page */
+  .navbar {
+    font-weight: 300;
+  }
+  
+  .navbar-brand {
+    font-size: 30px;
+    font-weight: 400;
+  }
+  .Logo{
+    height: 100px;
+    width: 100px;
+  }
+  
+  .nav-item {
+    margin-right: 1.5rem;
+  }
+  /* Account */
+  .account {
+    width: 100%;
+    padding: 20px;
+    height: auto;
+    background-color:transparent;
+    color: white;
+  }
+  .account h1 {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: bold;
+    font-size: 28px;
+  }  
+  .account-input label {
+    display: block;
+    margin-bottom: 8px;
+  }
+ 
+  
+  
+   
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .team-member {
+    text-align: center;
+    width: 100%; /* Ensure each member occupies equal space */
+  }
+  .box {
+    background-color: white; /* Light gray background color */
+    border-radius: 10px;
+    padding: 20px;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    height: auto;
+    box-shadow: auto; /* Shadow effect */
+    color: black;
+}
+
+.box1 {
+  background-color: white; /* Light gray background color */
+  border-radius: 10px;
+  padding: 20px;
+  position: absolute;
+  top: 20%;
+  right:70%;
+  left: 2%;;
+  height: auto;
+  box-shadow: auto; /* Shadow effect */
+  color: black;
+}

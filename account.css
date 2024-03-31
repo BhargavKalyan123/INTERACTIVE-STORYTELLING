@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* For all images */
+img {
+  object-fit: cover;
+}
+
+/* For all paragraphs */
+p {
+  font-weight: 600;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: url(Images/sun-rays-falling-deep-into-600nw-1721181988.jpg) center/cover;
+}
+.hero {
+  position: relative;
+  height: 100vh;
+}
+/* The navigation bar will be placed in the header, at the top of the page */
+.navbar {
+  font-weight: 300;
+}
+
+.navbar-brand {
+  font-size: 30px;
+  font-weight: 400;
+}
+.Logo{
+  height: 100px;
+  width: 100px;
+}
+
+.nav-item {
+  margin-right: 1.5rem;
+}
+/* Account */
+.account {
+  width: 100%;
+  padding: 20px;
+  height: auto;
+  background-color:transparent;
+  color: white;
+}
+.account h1 {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: bold;
+  font-size: 28px;
+}  
+.account-input label {
+  display: block;
+  margin-bottom: 8px;
+}
+.popup{
+height: 600px;
+width: 800px;
+background: white;
+position: absolute;
+border-radius: 10px;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+text-align: center;
+padding: 0px,30px,30px;
+columns: #333; 
+
+}
+.popup button{
+width: 100%;
+margin-top: 50px;
+padding: 10px,0px;
+background: black;
+color: #fff;
+border: 0;
+outline: none;
+font-size: 18px;
+border-radius: 4px;
+cursor: pointer;
+box-shadow: 0px,2px,5px rgba(0,0,0, 0.2);
+}
